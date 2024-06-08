@@ -24,7 +24,7 @@ import java.util.Random;
  */
 public class Patch {
 
-    protected LinkedList<Edit> edits = new LinkedList<>();
+    public LinkedList<Edit> edits = new LinkedList<>();
     protected SourceFile sourceFile;
 
     public Patch(SourceFile sourceFile) {

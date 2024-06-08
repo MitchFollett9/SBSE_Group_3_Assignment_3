@@ -1,0 +1,162 @@
+Optimising source file: examples/locoGP/SortInsertion.java
+
+initial search
+Initial execution time: 1904300.0 (ns) 
+
+Step 1 | MOVE 6 -> 0:1 |Patch invalid
+Step 2 | MOVE 10 -> 1:0 |Failed to compile
+Step 3 | DEL 0 |Failed to compile
+Step 4 | COPY 5 -> 2:1 |Failed to pass all tests
+Step 5 | COPY 8 -> 1:2 |Failed to pass all tests
+Step 6 | DEL 9 |Failed to pass all tests
+Step 7 | MOVE 2 -> 1:1 |Failed to pass all tests
+Step 8 | COPY 8 -> 0:1 |Failed to compile
+Step 9 | MOVE 1 -> 1:2 |Failed to compile
+Step 10 | DEL 4 |Failed to compile
+Step 11 | DEL 8 |Time: 3001500.0
+Step 12 | MOVE 10 -> 2:1 |Failed to compile
+Step 13 | MOVE 3 -> 1:1 |Patch invalid
+Step 14 | DEL 9 |Failed to pass all tests
+Step 15 | DEL 10 |Failed to compile
+Step 16 | COPY 2 -> 1:1 |Failed to pass all tests
+Step 17 | MOVE 7 -> 0:2 |Failed to compile
+Step 18 | COPY 10 -> 1:0 |Failed to compile
+Step 19 | COPY 8 -> 0:0 |Failed to compile
+Step 20 | DEL 10 |Failed to compile
+Step 21 | DEL 2 |Failed to pass all tests
+Step 22 | COPY 8 -> 0:2 |Failed to compile
+Step 23 | COPY 4 -> 0:2 |Failed to pass all tests
+Step 24 | MOVE 10 -> 2:0 |Failed to compile
+Step 25 | DEL 6 |Patch invalid
+Step 26 | DEL 2 |Failed to pass all tests
+Step 27 | MOVE 1 -> 0:0 |Failed to pass all tests
+Step 28 | COPY 5 -> 2:1 |Failed to pass all tests
+Step 29 | DEL 10 |Failed to compile
+Step 30 | DEL 1 |Failed to compile
+Step 31 | MOVE 0 -> 2:0 |Failed to compile
+Step 32 | MOVE 9 -> 2:0 |Failed to pass all tests
+Step 33 | COPY 7 -> 2:0 |Failed to pass all tests
+Step 34 | MOVE 6 -> 0:0 |Patch invalid
+Step 35 | COPY 9 -> 1:0 |Failed to compile
+Step 36 | MOVE 8 -> 2:1 |Failed to pass all tests
+Step 37 | DEL 8 |Time: 2709700.0
+Step 38 | MOVE 8 -> 2:1 |Failed to pass all tests
+Step 39 | MOVE 1 -> 1:1 |Failed to compile
+Step 40 | COPY 1 -> 1:1 |Failed to compile
+Step 41 | COPY 6 -> 1:1 |Failed to compile
+Step 42 | DEL 7 |Failed to pass all tests
+Step 43 | COPY 0 -> 2:0 |Failed to compile
+Step 44 | MOVE 4 -> 2:0 |Failed to compile
+Step 45 | COPY 7 -> 0:0 |Failed to compile
+Step 46 | DEL 2 |Failed to pass all tests
+Step 47 | DEL 7 |Failed to pass all tests
+Step 48 | MOVE 4 -> 2:0 |Failed to compile
+Step 49 | DEL 0 |Failed to compile
+Step 50 | MOVE 9 -> 2:1 |Failed to pass all tests
+Step 51 | MOVE 4 -> 0:0 |Failed to compile
+Step 52 | DEL 9 |Failed to pass all tests
+Step 53 | COPY 1 -> 0:2 |Failed to compile
+Step 54 | DEL 10 |Failed to compile
+Step 55 | COPY 0 -> 1:1 |Failed to compile
+Step 56 | DEL 1 |Failed to compile
+Step 57 | COPY 5 -> 2:0 |Failed to pass all tests
+Step 58 | MOVE 8 -> 0:0 |Failed to compile
+Step 59 | MOVE 8 -> 1:0 |Failed to compile
+Step 60 | COPY 3 -> 0:1 |Failed to compile
+Step 61 | MOVE 4 -> 1:2 |Failed to compile
+Step 62 | MOVE 3 -> 1:0 |Patch invalid
+Step 63 | MOVE 6 -> 1:1 |Patch invalid
+Step 64 | MOVE 9 -> 1:2 |Failed to pass all tests
+Step 65 | COPY 10 -> 2:0 |Failed to compile
+Step 66 | MOVE 0 -> 1:0 |Failed to compile
+Step 67 | DEL 9 |Failed to pass all tests
+Step 68 | MOVE 0 -> 1:2 |Failed to compile
+Step 69 | MOVE 2 -> 2:0 |Failed to pass all tests
+Step 70 | MOVE 3 -> 0:0 |Patch invalid
+Step 71 | DEL 3 |Patch invalid
+Step 72 | MOVE 4 -> 1:2 |Failed to compile
+Step 73 | MOVE 9 -> 0:1 |Failed to compile
+Step 74 | COPY 10 -> 0:1 |Failed to compile
+Step 75 | DEL 9 |Failed to pass all tests
+Step 76 | COPY 1 -> 1:0 |Failed to compile
+Step 77 | MOVE 9 -> 1:1 |Failed to compile
+Step 78 | MOVE 5 -> 1:0 |Failed to compile
+Step 79 | DEL 9 |Failed to pass all tests
+Step 80 | COPY 7 -> 0:0 |Failed to compile
+Step 81 | COPY 1 -> 1:1 |Failed to compile
+Step 82 | DEL 5 |Failed to compile
+Step 83 | MOVE 5 -> 1:2 |Failed to pass all tests
+Step 84 | MOVE 1 -> 2:0 |Failed to compile
+Step 85 | COPY 4 -> 0:0 |Failed to compile
+Step 86 | DEL 0 |Failed to compile
+Step 87 | COPY 8 -> 0:0 |Failed to compile
+Step 88 | MOVE 1 -> 0:1 |Failed to pass all tests
+Step 89 | COPY 5 -> 0:1 |Failed to compile
+Step 90 | MOVE 9 -> 0:0 |Failed to compile
+Step 91 | DEL 6 |Patch invalid
+Step 92 | DEL 2 |Failed to pass all tests
+Step 93 | DEL 10 |Failed to compile
+Step 94 | COPY 4 -> 2:0 |Failed to pass all tests
+Step 95 | COPY 0 -> 2:1 |Failed to compile
+Step 96 | MOVE 6 -> 0:0 |Patch invalid
+Step 97 | MOVE 3 -> 0:2 |Patch invalid
+Step 98 | MOVE 0 -> 0:0 |Failed to compile
+Step 99 | MOVE 10 -> 0:2 |Failed to pass all tests
+Step 100 | COPY 10 -> 1:2 |Failed to compile
+Step 101 | DEL 8 |Time: 2323100.0
+Step 102 | DEL 9 |Failed to pass all tests
+Step 103 | MOVE 6 -> 1:2 |Patch invalid
+Step 104 | MOVE 1 -> 2:1 |Failed to compile
+Step 105 | COPY 1 -> 1:2 |Failed to compile
+Step 106 | DEL 3 |Patch invalid
+Step 107 | DEL 0 |Failed to compile
+Step 108 | COPY 3 -> 0:1 |Failed to compile
+Step 109 | COPY 9 -> 0:1 |Failed to compile
+Step 110 | MOVE 9 -> 0:1 |Failed to compile
+Step 111 | MOVE 8 -> 0:0 |Failed to compile
+Step 112 | MOVE 10 -> 0:1 |Failed to compile
+Step 113 | DEL 6 |Patch invalid
+Step 114 | DEL 5 |Failed to compile
+Step 115 | DEL 3 |Patch invalid
+Step 116 | COPY 9 -> 2:0 |Failed to pass all tests
+Step 117 | MOVE 10 -> 2:1 |Failed to compile
+Step 118 | COPY 4 -> 2:0 |Failed to pass all tests
+Step 119 | COPY 4 -> 1:2 |Failed to pass all tests
+Step 120 | COPY 6 -> 1:1 |Failed to compile
+Step 121 | COPY 9 -> 2:0 |Failed to pass all tests
+Step 122 | MOVE 2 -> 2:0 |Failed to pass all tests
+Step 123 | MOVE 10 -> 0:0 |Failed to compile
+Step 124 | MOVE 8 -> 0:2 |Failed to compile
+Step 125 | DEL 1 |Failed to compile
+Step 126 | MOVE 1 -> 0:1 |Failed to pass all tests
+Step 127 | MOVE 7 -> 1:1 |Failed to compile
+Step 128 | COPY 4 -> 0:2 |Failed to pass all tests
+Step 129 | COPY 6 -> 0:0 |Failed to compile
+Step 130 | MOVE 5 -> 0:0 |Failed to compile
+Step 131 | COPY 10 -> 2:0 |Failed to compile
+Step 132 | MOVE 6 -> 2:1 |Patch invalid
+Step 133 | DEL 3 |Patch invalid
+Step 134 | MOVE 8 -> 1:2 |Time: 2100700.0
+Step 135 | DEL 5 |Failed to compile
+Step 136 | COPY 4 -> 1:0 |Failed to pass all tests
+Step 137 | COPY 6 -> 2:1 |Failed to pass all tests
+Step 138 | MOVE 3 -> 0:1 |Patch invalid
+Step 139 | DEL 0 |Failed to compile
+Step 140 | COPY 10 -> 0:2 |Failed to compile
+Step 141 | COPY 4 -> 0:0 |Failed to compile
+Step 142 | MOVE 1 -> 0:0 |Failed to pass all tests
+Step 143 | DEL 4 |Failed to compile
+Step 144 | MOVE 4 -> 0:1 |Failed to compile
+Step 145 | MOVE 1 -> 1:1 |Failed to compile
+Step 146 | MOVE 6 -> 2:0 |Patch invalid
+Step 147 | MOVE 8 -> 0:1 |Failed to compile
+Step 148 | DEL 6 |Patch invalid
+Step 149 | COPY 0 -> 0:2 |Failed to compile
+Step 150 | DEL 6 |Patch invalid
+Step 151 | DEL 8 |Time: 2398800.0
+Step 152 | COPY 8 -> 0:2 |Failed to compile
+Step 153 | COPY 0 -> 0:1 |Failed to compile
+Step 154 | DEL 9 |Failed to pass all tests
+Step 155 | MOVE 7 -> 2:1 |Failed to pass all tests
+Step 156 | DEL 5 |Failed to compile
+Step 157 | DEL 10 |

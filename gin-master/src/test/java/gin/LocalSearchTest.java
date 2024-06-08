@@ -1,11 +1,16 @@
 package gin;
 
+import java.util.HashSet;
+
 import com.github.javaparser.ast.CompilationUnit;
+
 import gin.edit.DeleteStatement;
+
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Random;
+import java.util.Set;
 
 import static org.junit.Assert.*;
 
@@ -34,9 +39,10 @@ public class LocalSearchTest {
         CompilationUnit compilationUnit = sourceFile.getCompilationUnit();
         Patch patch = new Patch(sourceFile);
         Random rng = new Random(1234);
+        Set<String> ss = new HashSet<>();
 
         // Neighbour of an empty patch has exactly one edit
-        Patch neighbourPatch = localSearch.neighbour(patch, rng);
+        Patch neighbourPatch = localSearch.neighbour(patch, rng, ss);
         assertEquals(neighbourPatch.size(), 1);
 
         // Now do 10 random neighbours
@@ -45,7 +51,7 @@ public class LocalSearchTest {
             DeleteStatement delete = new DeleteStatement(15);
             oneEditPatch.add(delete);
 
-            Patch anotherNeighbour = localSearch.neighbour(oneEditPatch, rng);
+            Patch anotherNeighbour = localSearch.neighbour(oneEditPatch, rng, ss);
 
             boolean addedAnEdit = anotherNeighbour.size() == 2;
             boolean removedAnEdit = anotherNeighbour.size() == 0;
