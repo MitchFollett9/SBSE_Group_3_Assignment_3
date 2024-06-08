@@ -39,10 +39,9 @@ public class LocalSearchTest {
         CompilationUnit compilationUnit = sourceFile.getCompilationUnit();
         Patch patch = new Patch(sourceFile);
         Random rng = new Random(1234);
-        Set<String> ss = new HashSet<>();
 
         // Neighbour of an empty patch has exactly one edit
-        Patch neighbourPatch = localSearch.neighbour(patch, rng, ss);
+        Patch neighbourPatch = localSearch.neighbour(patch, rng);
         assertEquals(neighbourPatch.size(), 1);
 
         // Now do 10 random neighbours
@@ -51,7 +50,7 @@ public class LocalSearchTest {
             DeleteStatement delete = new DeleteStatement(15);
             oneEditPatch.add(delete);
 
-            Patch anotherNeighbour = localSearch.neighbour(oneEditPatch, rng, ss);
+            Patch anotherNeighbour = localSearch.neighbour(oneEditPatch, rng);
 
             boolean addedAnEdit = anotherNeighbour.size() == 2;
             boolean removedAnEdit = anotherNeighbour.size() == 0;

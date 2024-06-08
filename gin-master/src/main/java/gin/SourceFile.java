@@ -7,6 +7,7 @@ import com.github.javaparser.ast.stmt.Statement;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 public class SourceFile {
@@ -101,6 +102,50 @@ public class SourceFile {
 
     public String toString() {
         return this.getSource();
+    }
+
+    public static boolean areListsEqual(List<String> list1, List<String> list2) {
+        // Sort the lists
+        Collections.sort(list1);
+        Collections.sort(list2);
+
+        // Compare the sorted lists element by element
+        if (list1.size() != list2.size()) {
+            return false;
+        }
+
+        for (int i = 0; i < list1.size(); i++) {
+            if (!list1.get(i).equals(list2.get(i))) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public boolean isEqual(SourceFile sf2) {
+        boolean ret = (this.filename == null ? sf2.filename == null : this.filename.equals(sf2.filename))
+            && this.getNumberOfBlocks() == sf2.getNumberOfBlocks()
+            && this.getStatementCount() == sf2.getStatementCount()
+            && (this.blockList() == null ? sf2.blockList() == null : this.blockList().equals(sf2.blockList()))
+            && (this.statementList() == null ? sf2.statementList() == null : this.statementList().equals(sf2.statementList()));
+        return ret;
+        // if (ret){
+        //     for (int i = 0; i < this.getNumberOfBlocks(); i++) {
+        //         thisBlockHasThatBlock = false;
+        //         for (int j = 0; j < sf2.getNumberOfBlocks(); j++) {
+        //             if (this.getNumberOfInsertionPointsInBlock(i) == sf2.getNumberOfInsertionPointsInBlock(j)){
+        //                 thisBlockHasThatBlock = true;
+        //             }
+        //         }
+        //         if (!thisBlockHasThatBlock){
+        //             return false;
+        //         }
+        //     }
+        // } else {
+        //     return false;
+        // }
+        // return true;
     }
 
 }

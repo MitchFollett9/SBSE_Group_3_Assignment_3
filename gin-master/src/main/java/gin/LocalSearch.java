@@ -14,6 +14,8 @@ public class LocalSearch {
     private static final int NUM_STEPS = 1000;
     private static final int WARMUP_REPS = 10;
 
+    // private int numberOfRemovals = 0;
+
     protected SourceFile sourceFile;
     protected TestRunner testRunner;
     protected Random rng;
@@ -33,15 +35,12 @@ public class LocalSearch {
             String sourceFilename = args[0];
             System.out.println("Optimising source file: " + sourceFilename + "\n");
 
-            Set<String> ss = new HashSet<>();
-
             LocalSearch localSearch = new LocalSearch(sourceFilename);
             System.out.println("initial search");
-            SearchReturn sr = localSearch.search(ss);
-            LocalSearch localSearch2 = new LocalSearch(sourceFilename);
-            System.out.println("after initial search");
-            localSearch2.search(sr.stringSet);
-            System.out.println("after final search");
+            SearchReturn sr = localSearch.search();
+            
+            System.out.println("after final search " + sr.betterPatch.index);
+            System.out.println("after final search patch " + sr.betterPatch.patch.toString());
 
         }
 
@@ -64,16 +63,17 @@ public class LocalSearch {
      * Actual LocalSearch.
      * @return
      */
-    private SearchReturn search(Set<String> ss) {
+    private SearchReturn search() {
 
         // start with the empty patch
         Patch bestPatch = new Patch(sourceFile);
-        double bestTime = testRunner.test(bestPatch, WARMUP_REPS).executionTime;
+        double bestTime = 10000000; // testRunner.test(bestPatch, WARMUP_REPS).executionTime;
         double origTime = bestTime;
         int bestStep = 0;
 
-        Set<String> failedChanges = new HashSet<>();
-        Set<String> successfullChanges = new HashSet<>();
+        ArrayList<PatchWIthIndex> passingPatches = new ArrayList<>();
+        PatchWIthIndex betterPatch;
+        int sameStep = 0;
         
         System.out.println("Initial execution time: " + bestTime + " (ns) \n");
 
@@ -81,61 +81,60 @@ public class LocalSearch {
 
             System.out.print("Step " + step + " ");
 
-            Patch neighbour = neighbour(bestPatch, rng, ss);
+            Patch neighbour = neighbour(bestPatch, rng);
 
-            System.out.print(neighbour);
+            // System.out.print(neighbour);
 
             TestRunner.TestResult testResult = testRunner.test(neighbour);
 
             if (!testResult.patchSuccess) {
                 System.out.println("Patch invalid");
-                failedChanges.add(bestPatch.toString() + neighbour.toString());
-                continue;
+                // failedChanges.add(neighbour.toString());
             }
 
             if (!testResult.compiled) {
                 System.out.println("Failed to compile");
-                failedChanges.add(bestPatch.toString() + neighbour.toString());
+                // failedChanges.add(neighbour.toString());
                 continue;
             }
 
             if (!testResult.junitResult.wasSuccessful()) {
                 System.out.println("Failed to pass all tests");
-                failedChanges.add(bestPatch.toString() + neighbour.toString());
+                // failedChanges.add(neighbour.toString());
                 continue;
             }
-            successfullChanges.add(bestPatch.toString() + neighbour.toString());
+
+            passingPatches.add(new PatchWIthIndex(step, neighbour));
 
             if (testResult.executionTime < bestTime) {
                 bestPatch = neighbour;
                 bestTime = testResult.executionTime;
                 bestStep = step;
                 System.out.println("*** New best *** Time: " + bestTime + "(ns)");
+                // failedChanges.clear();
             } else {
                 System.out.println("Time: " + testResult.executionTime);
             }
 
-        }
-
-        System.out.println("Failed changes");
-        for (String str : failedChanges) {
-            System.out.println(str);
-        }
-        System.out.println("Success changes");
-        for (String str : successfullChanges) {
-            System.out.println(str);
-        }
-        failedChanges.removeIf(successfullChanges::contains);
-        
-        System.out.println("Failed changes after patch");
-        for (String str : failedChanges) {
-            System.out.println(str);
         }
         System.out.println("\nBest patch found: " + bestPatch);
         System.out.println("Found at step: " + bestStep);
         System.out.println("Best execution time: " + bestTime + " (ns) ");
         System.out.println("Speedup (%): " + (origTime - bestTime)/origTime);
         bestPatch.writePatchedSourceToFile(sourceFile.getFilename() + ".optimised");
+
+        SourceFile checkFile = bestPatch.apply();
+
+        betterPatch = new PatchWIthIndex(0, bestPatch);
+
+        System.out.println("print is equal working" + bestPatch.apply().isEqual(bestPatch.apply()));
+
+        for (PatchWIthIndex str : passingPatches) {
+            if (str.patch.apply().isEqual(checkFile)) {
+                betterPatch = str;
+                break;
+            }
+        }
 
         /*
          * 
@@ -153,7 +152,7 @@ public class LocalSearch {
         // }
         
 
-        return new SearchReturn(failedChanges, bestPatch);
+        return new SearchReturn(betterPatch, bestPatch);
 
     }
 
@@ -163,7 +162,7 @@ public class LocalSearch {
      * @param patch Generate a neighbour of this patch.
      * @return A neighbouring patch.
      */
-    public Patch neighbour(Patch patch, Random rng, Set<String> ss) {
+    public Patch neighbour(Patch patch, Random rng) {
 
         Patch neighbour = patch.clone();
 
@@ -171,11 +170,6 @@ public class LocalSearch {
                 neighbour.remove(rng.nextInt(neighbour.size()));
             } else {
                 neighbour.addRandomEdit(rng);
-            }
-            if (ss.contains(patch.toString() + neighbour.toString()))
-            {
-                System.out.println("ss contains it" + neighbour.toString());
-                return patch;
             }
 
         return neighbour;
