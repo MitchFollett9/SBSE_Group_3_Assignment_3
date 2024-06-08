@@ -1,15 +1,13 @@
 
 package gin;
 
-import java.util.Set;
-
 public class SearchReturn {
-    public Set<String> stringSet;
+    public PatchWIthIndex betterPatch;
     public Patch patch;
 
     // Constructor
-    public SearchReturn(Set<String> ss, Patch p) {
-        stringSet = ss;
+    public SearchReturn(PatchWIthIndex ss, Patch p) {
+        betterPatch = ss;
         patch = p;
     }
 }
