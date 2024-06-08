@@ -13,3 +13,4 @@ Best execution time: 1182800.0 (ns)
 Equivilent patch index 9
 Equivilent patch patch | DEL 8 |
 
+5. To change what program to run, edit the line in part-4.ps1: $javaArgs = "examples/locoGP/SortHeap.java"

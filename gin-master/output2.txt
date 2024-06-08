@@ -3,1104 +3,1107 @@ Optimising source file: examples/locoGP/SortInsertion.java
 initial search
 Initial execution time: 1.0E7 (ns) 
 
-Step 1 Failed to compile
-Step 2 Failed to pass all tests
-Step 3 Patch invalid
-Failed to compile
-Step 4 Patch invalid
-Failed to compile
-Step 5 Patch invalid
-Failed to compile
-Step 6 Failed to compile
+Step 1 Failed to pass all tests
+Step 2 *** New best *** Time: 3529000.0(ns)
+Step 3 Failed to pass all tests
+Step 4 Failed to pass all tests
+Step 5 Failed to pass all tests
+Step 6 Failed to pass all tests
 Step 7 Failed to pass all tests
-Step 8 Failed to compile
+Step 8 Failed to pass all tests
 Step 9 Failed to compile
-Step 10 Patch invalid
-Failed to compile
+Step 10 Failed to compile
 Step 11 Failed to compile
-Step 12 *** New best *** Time: 4836900.0(ns)
+Step 12 Failed to pass all tests
 Step 13 Failed to pass all tests
 Step 14 Failed to pass all tests
 Step 15 Failed to pass all tests
-Step 16 Patch invalid
-Failed to compile
+Step 16 Failed to pass all tests
 Step 17 Failed to pass all tests
-Step 18 Failed to pass all tests
+Step 18 Failed to compile
 Step 19 Failed to pass all tests
 Step 20 Failed to pass all tests
-Step 21 Failed to pass all tests
-Step 22 Failed to pass all tests
-Step 23 Failed to pass all tests
-Step 24 Failed to pass all tests
-Step 25 Failed to pass all tests
-Step 26 Failed to pass all tests
-Step 27 Patch invalid
+Step 21 Patch invalid
 Failed to compile
-Step 28 Failed to pass all tests
+Step 22 Failed to compile
+Step 23 Failed to pass all tests
+Step 24 Time: 1.235145E8
+Step 25 Failed to compile
+Step 26 Failed to pass all tests
+Step 27 Failed to compile
+Step 28 Failed to compile
 Step 29 Failed to pass all tests
 Step 30 Failed to pass all tests
-Step 31 Failed to pass all tests
+Step 31 Failed to compile
 Step 32 Failed to pass all tests
 Step 33 Failed to pass all tests
 Step 34 Failed to pass all tests
-Step 35 Patch invalid
-Failed to compile
+Step 35 Failed to pass all tests
 Step 36 Failed to compile
 Step 37 Failed to pass all tests
-Step 38 Failed to pass all tests
-Step 39 Failed to pass all tests
-Step 40 Failed to pass all tests
-Step 41 Failed to pass all tests
-Step 42 Patch invalid
+Step 38 Failed to compile
+Step 39 Patch invalid
 Failed to compile
-Step 43 *** New best *** Time: 4002900.0(ns)
-Step 44 Failed to compile
+Step 40 Failed to compile
+Step 41 Failed to compile
+Step 42 Failed to pass all tests
+Step 43 Failed to pass all tests
+Step 44 Failed to pass all tests
 Step 45 Failed to pass all tests
-Step 46 Failed to pass all tests
-Step 47 Failed to pass all tests
-Step 48 *** New best *** Time: 2969500.0(ns)
+Step 46 Patch invalid
+Failed to compile
+Step 47 Failed to compile
+Step 48 Failed to pass all tests
 Step 49 Failed to pass all tests
-Step 50 Failed to pass all tests
-Step 51 Failed to pass all tests
+Step 50 Failed to compile
+Step 51 Failed to compile
 Step 52 Failed to pass all tests
-Step 53 Failed to pass all tests
+Step 53 Failed to compile
 Step 54 Failed to pass all tests
-Step 55 Failed to pass all tests
+Step 55 *** New best *** Time: 3046900.0(ns)
 Step 56 Failed to pass all tests
-Step 57 Failed to pass all tests
-Step 58 Failed to pass all tests
-Step 59 Failed to compile
-Step 60 Failed to compile
-Step 61 Patch invalid
+Step 57 Time: 3790300.0
+Step 58 Patch invalid
 Failed to compile
-Step 62 Failed to pass all tests
-Step 63 Failed to pass all tests
+Step 59 *** New best *** Time: 3017400.0(ns)
+Step 60 Failed to pass all tests
+Step 61 Failed to pass all tests
+Step 62 Patch invalid
+Failed to compile
+Step 63 Failed to compile
 Step 64 Failed to pass all tests
-Step 65 Failed to pass all tests
-Step 66 Failed to pass all tests
-Step 67 Failed to pass all tests
-Step 68 Failed to compile
-Step 69 Failed to pass all tests
-Step 70 Failed to compile
-Step 71 Patch invalid
+Step 65 Patch invalid
 Failed to compile
-Step 72 Failed to compile
-Step 73 Failed to compile
-Step 74 Failed to pass all tests
-Step 75 Failed to compile
+Step 66 *** New best *** Time: 2391700.0(ns)
+Step 67 Time: 2541000.0
+Step 68 Time: 3462100.0
+Step 69 Time: 2568100.0
+Step 70 Failed to pass all tests
+Step 71 Time: 2699800.0
+Step 72 Patch invalid
+Failed to compile
+Step 73 Failed to pass all tests
+Step 74 Patch invalid
+Failed to compile
+Step 75 Failed to pass all tests
 Step 76 Failed to pass all tests
-Step 77 *** New best *** Time: 2540200.0(ns)
-Step 78 Time: 2815000.0
-Step 79 Time: 2675500.0
-Step 80 Failed to pass all tests
+Step 77 Time: 2549800.0
+Step 78 Failed to compile
+Step 79 Time: 2569800.0
+Step 80 *** New best *** Time: 2373900.0(ns)
 Step 81 Failed to pass all tests
-Step 82 Failed to pass all tests
+Step 82 Patch invalid
+Failed to compile
 Step 83 Failed to pass all tests
 Step 84 Failed to pass all tests
 Step 85 Failed to pass all tests
 Step 86 Failed to compile
 Step 87 Failed to pass all tests
-Step 88 Patch invalid
+Step 88 Failed to pass all tests
+Step 89 Patch invalid
 Failed to compile
-Step 89 Failed to compile
 Step 90 Failed to pass all tests
-Step 91 Failed to pass all tests
-Step 92 Patch invalid
-Failed to compile
-Step 93 *** New best *** Time: 2152800.0(ns)
-Step 94 Patch invalid
-Failed to compile
+Step 91 Failed to compile
+Step 92 Failed to pass all tests
+Step 93 Time: 3097900.0
+Step 94 Failed to pass all tests
 Step 95 Failed to pass all tests
-Step 96 Patch invalid
-Failed to compile
+Step 96 Failed to compile
 Step 97 Failed to pass all tests
-Step 98 Failed to compile
+Step 98 Failed to pass all tests
 Step 99 Failed to pass all tests
 Step 100 Failed to pass all tests
-Step 101 Failed to pass all tests
-Step 102 Time: 2777500.0
-Step 103 Failed to pass all tests
-Step 104 Patch invalid
+Step 101 Patch invalid
 Failed to compile
-Step 105 Failed to compile
-Step 106 Failed to pass all tests
+Step 102 Failed to pass all tests
+Step 103 Failed to pass all tests
+Step 104 Failed to pass all tests
+Step 105 Patch invalid
+Failed to compile
+Step 106 Patch invalid
+Failed to compile
 Step 107 Failed to pass all tests
 Step 108 Failed to pass all tests
-Step 109 Failed to compile
+Step 109 Patch invalid
+Failed to compile
 Step 110 Failed to pass all tests
 Step 111 Failed to pass all tests
-Step 112 Failed to compile
-Step 113 Failed to compile
+Step 112 Failed to pass all tests
+Step 113 Failed to pass all tests
 Step 114 Failed to pass all tests
 Step 115 Failed to pass all tests
 Step 116 Failed to pass all tests
-Step 117 Patch invalid
-Failed to compile
+Step 117 Failed to pass all tests
 Step 118 Failed to pass all tests
 Step 119 Failed to pass all tests
 Step 120 Failed to compile
 Step 121 Failed to pass all tests
 Step 122 Failed to pass all tests
-Step 123 Failed to compile
-Step 124 Failed to pass all tests
+Step 123 Failed to pass all tests
+Step 124 Time: 2801300.0
 Step 125 Failed to pass all tests
-Step 126 Patch invalid
-Failed to compile
-Step 127 Failed to pass all tests
+Step 126 Failed to pass all tests
+Step 127 *** New best *** Time: 2237700.0(ns)
 Step 128 Failed to compile
 Step 129 Failed to pass all tests
-Step 130 Failed to pass all tests
+Step 130 *** New best *** Time: 2110000.0(ns)
 Step 131 Failed to pass all tests
 Step 132 Failed to pass all tests
-Step 133 Failed to compile
+Step 133 Failed to pass all tests
 Step 134 Failed to pass all tests
-Step 135 Failed to pass all tests
-Step 136 Failed to pass all tests
-Step 137 Failed to compile
-Step 138 Failed to pass all tests
+Step 135 Failed to compile
+Step 136 Failed to compile
+Step 137 Failed to pass all tests
+Step 138 Failed to compile
 Step 139 Failed to compile
 Step 140 Failed to compile
-Step 141 Failed to pass all tests
-Step 142 Failed to compile
+Step 141 Failed to compile
+Step 142 Failed to pass all tests
 Step 143 Failed to pass all tests
 Step 144 Failed to pass all tests
-Step 145 *** New best *** Time: 2063900.0(ns)
-Step 146 Failed to pass all tests
+Step 145 Failed to pass all tests
+Step 146 Failed to compile
 Step 147 Failed to pass all tests
-Step 148 *** New best *** Time: 2012600.0(ns)
-Step 149 Failed to compile
+Step 148 Failed to pass all tests
+Step 149 Patch invalid
+Failed to compile
 Step 150 Failed to compile
-Step 151 Patch invalid
-Failed to compile
+Step 151 Failed to pass all tests
 Step 152 Failed to pass all tests
-Step 153 Failed to pass all tests
-Step 154 Time: 2278100.0
-Step 155 Time: 2114200.0
-Step 156 Patch invalid
-Failed to compile
-Step 157 Patch invalid
-Failed to compile
-Step 158 Failed to compile
-Step 159 Failed to compile
-Step 160 Failed to compile
+Step 153 Failed to compile
+Step 154 Failed to pass all tests
+Step 155 Failed to compile
+Step 156 Failed to pass all tests
+Step 157 Failed to pass all tests
+Step 158 Failed to pass all tests
+Step 159 Failed to pass all tests
+Step 160 Failed to pass all tests
 Step 161 Failed to pass all tests
 Step 162 Failed to pass all tests
-Step 163 Failed to pass all tests
+Step 163 Patch invalid
+Failed to compile
 Step 164 Failed to pass all tests
 Step 165 Failed to pass all tests
 Step 166 Failed to compile
 Step 167 Failed to pass all tests
-Step 168 *** New best *** Time: 1572100.0(ns)
+Step 168 Failed to pass all tests
 Step 169 Failed to pass all tests
 Step 170 Failed to compile
-Step 171 Failed to compile
-Step 172 Failed to pass all tests
-Step 173 Time: 1752200.0
-Step 174 Time: 1886900.0
-Step 175 Failed to pass all tests
+Step 171 Failed to pass all tests
+Step 172 Failed to compile
+Step 173 Failed to pass all tests
+Step 174 Failed to compile
+Step 175 Failed to compile
 Step 176 Failed to pass all tests
-Step 177 Time: 2147700.0
-Step 178 Time: 2046000.0
+Step 177 Failed to compile
+Step 178 Failed to pass all tests
 Step 179 Failed to pass all tests
-Step 180 Failed to pass all tests
-Step 181 Time: 1658300.0
-Step 182 Failed to compile
-Step 183 Time: 1838400.0
-Step 184 Time: 1591000.0
-Step 185 Time: 1683700.0
-Step 186 Time: 2221800.0
-Step 187 Failed to compile
-Step 188 Time: 1970300.0
-Step 189 Failed to pass all tests
-Step 190 Failed to compile
-Step 191 Time: 1683900.0
-Step 192 Time: 1768900.0
-Step 193 Time: 1683900.0
-Step 194 Failed to compile
-Step 195 Patch invalid
+Step 180 Failed to compile
+Step 181 Failed to pass all tests
+Step 182 Failed to pass all tests
+Step 183 Failed to pass all tests
+Step 184 Failed to pass all tests
+Step 185 Failed to pass all tests
+Step 186 Patch invalid
 Failed to compile
+Step 187 Failed to pass all tests
+Step 188 Patch invalid
+Failed to compile
+Step 189 Failed to compile
+Step 190 *** New best *** Time: 1878400.0(ns)
+Step 191 Failed to pass all tests
+Step 192 Failed to compile
+Step 193 Failed to compile
+Step 194 Failed to pass all tests
+Step 195 Failed to compile
 Step 196 Failed to pass all tests
-Step 197 Failed to compile
-Step 198 Time: 1688200.0
+Step 197 Failed to pass all tests
+Step 198 Failed to pass all tests
 Step 199 Failed to pass all tests
-Step 200 Failed to compile
-Step 201 Patch invalid
-Failed to compile
+Step 200 Time: 2758600.0
+Step 201 Failed to pass all tests
 Step 202 Failed to pass all tests
-Step 203 Failed to pass all tests
-Step 204 Failed to compile
-Step 205 Failed to pass all tests
+Step 203 Failed to compile
+Step 204 *** New best *** Time: 1477500.0(ns)
+Step 205 Patch invalid
+Failed to compile
 Step 206 Failed to pass all tests
-Step 207 Time: 1609400.0
+Step 207 Time: 1556600.0
 Step 208 Failed to pass all tests
 Step 209 Failed to pass all tests
-Step 210 *** New best *** Time: 1459500.0(ns)
-Step 211 Failed to compile
-Step 212 Failed to compile
+Step 210 Patch invalid
+Failed to compile
+Step 211 Patch invalid
+Failed to compile
+Step 212 Failed to pass all tests
 Step 213 Failed to compile
-Step 214 Failed to compile
+Step 214 Failed to pass all tests
 Step 215 Failed to compile
-Step 216 Failed to pass all tests
+Step 216 Time: 1653600.0
 Step 217 Failed to pass all tests
 Step 218 Failed to pass all tests
 Step 219 Failed to pass all tests
-Step 220 Patch invalid
-Failed to compile
+Step 220 Failed to pass all tests
 Step 221 Failed to pass all tests
 Step 222 Failed to pass all tests
-Step 223 Failed to compile
-Step 224 Failed to pass all tests
+Step 223 Failed to pass all tests
+Step 224 Time: 2113100.0
 Step 225 Failed to pass all tests
-Step 226 Failed to pass all tests
-Step 227 Failed to pass all tests
+Step 226 Failed to compile
+Step 227 Patch invalid
+Failed to compile
 Step 228 Failed to pass all tests
 Step 229 Failed to compile
-Step 230 Failed to pass all tests
-Step 231 Failed to compile
+Step 230 Failed to compile
+Step 231 Failed to pass all tests
 Step 232 Failed to pass all tests
-Step 233 Failed to compile
-Step 234 Failed to pass all tests
-Step 235 Failed to pass all tests
-Step 236 Failed to pass all tests
-Step 237 Failed to compile
-Step 238 Failed to compile
-Step 239 Patch invalid
+Step 233 Failed to pass all tests
+Step 234 Failed to compile
+Step 235 Patch invalid
 Failed to compile
-Step 240 Failed to pass all tests
+Step 236 Failed to pass all tests
+Step 237 Failed to pass all tests
+Step 238 Patch invalid
+Failed to compile
+Step 239 Failed to pass all tests
+Step 240 Time: 1599300.0
 Step 241 Failed to pass all tests
 Step 242 Failed to pass all tests
-Step 243 Time: 2326700.0
+Step 243 Failed to compile
 Step 244 Failed to pass all tests
-Step 245 Failed to pass all tests
-Step 246 Failed to pass all tests
+Step 245 Time: 1590400.0
+Step 246 Failed to compile
 Step 247 Failed to pass all tests
 Step 248 Failed to pass all tests
 Step 249 Failed to pass all tests
-Step 250 Time: 1521400.0
-Step 251 Failed to compile
-Step 252 Failed to compile
+Step 250 Failed to pass all tests
+Step 251 Failed to pass all tests
+Step 252 Failed to pass all tests
 Step 253 Failed to pass all tests
-Step 254 Failed to compile
+Step 254 Failed to pass all tests
 Step 255 Failed to pass all tests
 Step 256 Failed to pass all tests
 Step 257 Failed to pass all tests
 Step 258 Failed to compile
 Step 259 Failed to pass all tests
-Step 260 Failed to pass all tests
-Step 261 Failed to pass all tests
-Step 262 Failed to pass all tests
+Step 260 Failed to compile
+Step 261 Failed to compile
+Step 262 Failed to compile
 Step 263 Failed to pass all tests
-Step 264 Failed to pass all tests
-Step 265 Patch invalid
+Step 264 Patch invalid
 Failed to compile
-Step 266 Failed to pass all tests
+Step 265 Failed to pass all tests
+Step 266 Failed to compile
 Step 267 Failed to pass all tests
 Step 268 Failed to pass all tests
-Step 269 Failed to pass all tests
-Step 270 Patch invalid
-Failed to compile
+Step 269 Failed to compile
+Step 270 Failed to pass all tests
 Step 271 Failed to pass all tests
-Step 272 Failed to pass all tests
+Step 272 Failed to compile
 Step 273 Failed to pass all tests
 Step 274 Failed to pass all tests
-Step 275 Failed to compile
+Step 275 Failed to pass all tests
 Step 276 Failed to pass all tests
-Step 277 Failed to compile
-Step 278 Failed to pass all tests
+Step 277 Failed to pass all tests
+Step 278 Failed to compile
 Step 279 Failed to pass all tests
 Step 280 Failed to pass all tests
 Step 281 Failed to pass all tests
 Step 282 Failed to pass all tests
-Step 283 Failed to compile
-Step 284 Failed to pass all tests
-Step 285 Failed to compile
-Step 286 Failed to pass all tests
-Step 287 Time: 1634000.0
-Step 288 Patch invalid
+Step 283 Patch invalid
 Failed to compile
+Step 284 Failed to pass all tests
+Step 285 Patch invalid
+Failed to compile
+Step 286 Failed to pass all tests
+Step 287 Failed to pass all tests
+Step 288 Failed to pass all tests
 Step 289 Failed to pass all tests
 Step 290 Patch invalid
 Failed to compile
-Step 291 Patch invalid
-Failed to compile
+Step 291 Failed to pass all tests
 Step 292 Failed to compile
-Step 293 Failed to compile
-Step 294 Failed to pass all tests
-Step 295 Failed to pass all tests
-Step 296 Time: 1647100.0
-Step 297 Failed to pass all tests
-Step 298 Failed to pass all tests
-Step 299 Failed to pass all tests
+Step 293 Failed to pass all tests
+Step 294 Patch invalid
+Failed to compile
+Step 295 Failed to compile
+Step 296 Failed to pass all tests
+Step 297 Failed to compile
+Step 298 Patch invalid
+Failed to compile
+Step 299 Failed to compile
 Step 300 Failed to pass all tests
-Step 301 Failed to pass all tests
-Step 302 Failed to compile
-Step 303 Patch invalid
-Failed to compile
-Step 304 Patch invalid
-Failed to compile
-Step 305 Failed to compile
+Step 301 Time: 1890900.0
+Step 302 Failed to pass all tests
+Step 303 Failed to pass all tests
+Step 304 Failed to pass all tests
+Step 305 Failed to pass all tests
 Step 306 Failed to pass all tests
 Step 307 Failed to pass all tests
 Step 308 Failed to pass all tests
 Step 309 Failed to pass all tests
-Step 310 Failed to compile
+Step 310 Failed to pass all tests
 Step 311 Failed to pass all tests
-Step 312 Failed to pass all tests
+Step 312 Failed to compile
 Step 313 Patch invalid
 Failed to compile
-Step 314 Failed to pass all tests
-Step 315 Failed to compile
-Step 316 Failed to pass all tests
+Step 314 Failed to compile
+Step 315 Failed to pass all tests
+Step 316 Failed to compile
 Step 317 Failed to pass all tests
-Step 318 Failed to pass all tests
+Step 318 Failed to compile
 Step 319 Failed to pass all tests
 Step 320 Failed to pass all tests
 Step 321 Failed to pass all tests
-Step 322 Time: 1651900.0
+Step 322 Failed to compile
 Step 323 Failed to pass all tests
 Step 324 Failed to pass all tests
-Step 325 Failed to compile
-Step 326 Failed to compile
-Step 327 Failed to compile
-Step 328 Patch invalid
-Failed to compile
-Step 329 Patch invalid
-Failed to compile
-Step 330 Failed to pass all tests
-Step 331 Patch invalid
-Failed to compile
-Step 332 Failed to compile
-Step 333 Failed to compile
+Step 325 Failed to pass all tests
+Step 326 Failed to pass all tests
+Step 327 Failed to pass all tests
+Step 328 Failed to pass all tests
+Step 329 Failed to pass all tests
+Step 330 Failed to compile
+Step 331 Failed to pass all tests
+Step 332 Failed to pass all tests
+Step 333 Failed to pass all tests
 Step 334 Failed to pass all tests
-Step 335 Failed to compile
-Step 336 Failed to compile
-Step 337 Failed to compile
+Step 335 Failed to pass all tests
+Step 336 Failed to pass all tests
+Step 337 Time: 1733900.0
 Step 338 Failed to compile
-Step 339 Failed to compile
+Step 339 Failed to pass all tests
 Step 340 Failed to pass all tests
 Step 341 Failed to pass all tests
 Step 342 Failed to pass all tests
-Step 343 Time: 1673700.0
-Step 344 Failed to pass all tests
+Step 343 Failed to pass all tests
+Step 344 Failed to compile
 Step 345 Failed to pass all tests
 Step 346 Failed to compile
 Step 347 Failed to pass all tests
-Step 348 Failed to pass all tests
-Step 349 Failed to pass all tests
-Step 350 Patch invalid
+Step 348 Patch invalid
 Failed to compile
+Step 349 Failed to compile
+Step 350 Failed to pass all tests
 Step 351 Failed to pass all tests
 Step 352 Failed to pass all tests
-Step 353 Patch invalid
-Failed to compile
-Step 354 Failed to compile
-Step 355 Patch invalid
-Failed to compile
-Step 356 Failed to compile
+Step 353 Failed to compile
+Step 354 Failed to pass all tests
+Step 355 Failed to pass all tests
+Step 356 Failed to pass all tests
 Step 357 Failed to pass all tests
-Step 358 Failed to compile
-Step 359 *** New best *** Time: 1394000.0(ns)
-Step 360 Failed to compile
-Step 361 Time: 1398300.0
-Step 362 Time: 1767600.0
-Step 363 Time: 1447400.0
+Step 358 Failed to pass all tests
+Step 359 Failed to pass all tests
+Step 360 Failed to pass all tests
+Step 361 Failed to pass all tests
+Step 362 Time: 2323600.0
+Step 363 Failed to pass all tests
 Step 364 Failed to compile
-Step 365 Time: 1490100.0
-Step 366 Time: 1688300.0
-Step 367 Time: 1493700.0
-Step 368 Failed to pass all tests
-Step 369 Time: 1436100.0
-Step 370 *** New best *** Time: 1355900.0(ns)
+Step 365 Time: 2047900.0
+Step 366 Failed to pass all tests
+Step 367 Failed to compile
+Step 368 Failed to compile
+Step 369 Failed to pass all tests
+Step 370 Patch invalid
+Failed to compile
 Step 371 Failed to compile
 Step 372 Failed to pass all tests
-Step 373 Patch invalid
-Failed to compile
+Step 373 Failed to pass all tests
 Step 374 Failed to pass all tests
-Step 375 Time: 1788300.0
-Step 376 Failed to compile
+Step 375 Failed to pass all tests
+Step 376 Failed to pass all tests
 Step 377 Failed to pass all tests
-Step 378 Failed to compile
-Step 379 Failed to compile
+Step 378 Failed to pass all tests
+Step 379 Failed to pass all tests
 Step 380 Failed to pass all tests
 Step 381 Failed to pass all tests
-Step 382 Failed to pass all tests
-Step 383 Failed to compile
+Step 382 Patch invalid
+Failed to compile
+Step 383 Failed to pass all tests
 Step 384 Failed to pass all tests
-Step 385 Failed to pass all tests
+Step 385 Failed to compile
 Step 386 Failed to pass all tests
-Step 387 Failed to pass all tests
+Step 387 Patch invalid
+Failed to compile
 Step 388 Patch invalid
 Failed to compile
-Step 389 Failed to pass all tests
+Step 389 Failed to compile
 Step 390 Failed to compile
-Step 391 Failed to pass all tests
-Step 392 Failed to compile
-Step 393 Failed to compile
+Step 391 Failed to compile
+Step 392 Failed to pass all tests
+Step 393 Failed to pass all tests
 Step 394 Failed to pass all tests
-Step 395 Failed to compile
+Step 395 Patch invalid
+Failed to compile
 Step 396 Failed to compile
 Step 397 Failed to pass all tests
-Step 398 Failed to pass all tests
+Step 398 Failed to compile
 Step 399 Failed to pass all tests
 Step 400 Failed to pass all tests
-Step 401 Patch invalid
-Failed to compile
-Step 402 Failed to pass all tests
-Step 403 Failed to compile
-Step 404 Failed to pass all tests
+Step 401 Failed to pass all tests
+Step 402 Failed to compile
+Step 403 Failed to pass all tests
+Step 404 Failed to compile
 Step 405 Failed to pass all tests
 Step 406 Failed to pass all tests
-Step 407 Failed to compile
-Step 408 Failed to compile
+Step 407 Failed to pass all tests
+Step 408 Failed to pass all tests
 Step 409 Failed to pass all tests
-Step 410 Failed to pass all tests
-Step 411 Failed to pass all tests
-Step 412 Failed to compile
-Step 413 Failed to compile
-Step 414 Failed to pass all tests
+Step 410 Failed to compile
+Step 411 Failed to compile
+Step 412 Failed to pass all tests
+Step 413 Failed to pass all tests
+Step 414 Failed to compile
 Step 415 Failed to pass all tests
 Step 416 Failed to pass all tests
-Step 417 Failed to compile
+Step 417 Failed to pass all tests
 Step 418 Failed to pass all tests
 Step 419 Failed to pass all tests
 Step 420 Failed to pass all tests
-Step 421 Failed to compile
+Step 421 Failed to pass all tests
 Step 422 Failed to pass all tests
-Step 423 Patch invalid
-Failed to compile
+Step 423 Failed to pass all tests
 Step 424 Failed to pass all tests
 Step 425 Failed to compile
-Step 426 Patch invalid
-Failed to compile
+Step 426 Failed to pass all tests
 Step 427 Failed to pass all tests
-Step 428 Failed to compile
-Step 429 Failed to compile
-Step 430 Time: 1499600.0
+Step 428 Failed to pass all tests
+Step 429 Failed to pass all tests
+Step 430 Failed to compile
 Step 431 Failed to pass all tests
 Step 432 Failed to compile
-Step 433 Failed to pass all tests
-Step 434 Patch invalid
+Step 433 Patch invalid
 Failed to compile
+Step 434 Failed to pass all tests
 Step 435 Failed to pass all tests
-Step 436 Failed to pass all tests
+Step 436 Time: 2202400.0
 Step 437 Failed to pass all tests
-Step 438 Patch invalid
+Step 438 Failed to compile
+Step 439 Patch invalid
 Failed to compile
-Step 439 Failed to pass all tests
-Step 440 Failed to compile
-Step 441 Failed to pass all tests
-Step 442 Failed to pass all tests
+Step 440 Failed to pass all tests
+Step 441 Failed to compile
+Step 442 Patch invalid
+Failed to compile
 Step 443 Failed to pass all tests
 Step 444 Failed to pass all tests
-Step 445 Patch invalid
+Step 445 Failed to pass all tests
+Step 446 Patch invalid
 Failed to compile
-Step 446 Failed to pass all tests
-Step 447 Failed to compile
+Step 447 Failed to pass all tests
 Step 448 Failed to compile
 Step 449 Failed to pass all tests
 Step 450 Failed to pass all tests
-Step 451 Failed to compile
-Step 452 Time: 1607200.0
+Step 451 Failed to pass all tests
+Step 452 Failed to compile
 Step 453 Patch invalid
 Failed to compile
-Step 454 Failed to compile
+Step 454 Failed to pass all tests
 Step 455 Failed to pass all tests
-Step 456 Failed to pass all tests
-Step 457 Failed to compile
-Step 458 Failed to compile
-Step 459 Failed to pass all tests
-Step 460 Patch invalid
+Step 456 Patch invalid
 Failed to compile
+Step 457 Failed to pass all tests
+Step 458 Failed to pass all tests
+Step 459 Time: 1828600.0
+Step 460 Failed to pass all tests
 Step 461 Failed to pass all tests
 Step 462 Failed to pass all tests
-Step 463 Time: 2005300.0
-Step 464 Failed to compile
+Step 463 Failed to pass all tests
+Step 464 Failed to pass all tests
 Step 465 Failed to pass all tests
 Step 466 Failed to pass all tests
-Step 467 Failed to compile
-Step 468 Failed to pass all tests
+Step 467 Failed to pass all tests
+Step 468 Failed to compile
 Step 469 Failed to pass all tests
 Step 470 Failed to compile
 Step 471 Failed to pass all tests
 Step 472 Failed to pass all tests
-Step 473 Failed to compile
-Step 474 Failed to compile
-Step 475 Failed to compile
-Step 476 Patch invalid
-Failed to compile
+Step 473 Failed to pass all tests
+Step 474 Failed to pass all tests
+Step 475 Failed to pass all tests
+Step 476 Failed to pass all tests
 Step 477 Failed to pass all tests
 Step 478 Failed to pass all tests
-Step 479 Failed to compile
+Step 479 Failed to pass all tests
 Step 480 Failed to pass all tests
-Step 481 Failed to pass all tests
-Step 482 Failed to pass all tests
+Step 481 Patch invalid
+Failed to compile
+Step 482 Patch invalid
+Failed to compile
 Step 483 Failed to compile
-Step 484 Failed to pass all tests
+Step 484 Patch invalid
+Failed to compile
 Step 485 Failed to pass all tests
 Step 486 Failed to pass all tests
-Step 487 Failed to pass all tests
+Step 487 Failed to compile
 Step 488 Failed to pass all tests
 Step 489 Failed to pass all tests
 Step 490 Failed to pass all tests
 Step 491 Failed to pass all tests
 Step 492 Failed to pass all tests
-Step 493 Failed to pass all tests
-Step 494 Failed to pass all tests
+Step 493 Patch invalid
+Failed to compile
+Step 494 Time: 1913400.0
 Step 495 Failed to pass all tests
-Step 496 Failed to pass all tests
+Step 496 Failed to compile
 Step 497 Failed to pass all tests
 Step 498 Failed to pass all tests
 Step 499 Failed to pass all tests
 Step 500 Failed to pass all tests
-Step 501 Failed to pass all tests
+Step 501 Failed to compile
 Step 502 Failed to compile
-Step 503 Failed to pass all tests
-Step 504 Patch invalid
-Failed to compile
+Step 503 Failed to compile
+Step 504 Failed to pass all tests
 Step 505 Failed to pass all tests
-Step 506 Failed to pass all tests
-Step 507 Patch invalid
-Failed to compile
-Step 508 Failed to compile
-Step 509 Failed to pass all tests
+Step 506 Failed to compile
+Step 507 Failed to pass all tests
+Step 508 Failed to pass all tests
+Step 509 Time: 2164500.0
 Step 510 Failed to pass all tests
 Step 511 Failed to pass all tests
 Step 512 Failed to pass all tests
-Step 513 Failed to pass all tests
-Step 514 Failed to pass all tests
+Step 513 Failed to compile
+Step 514 Failed to compile
 Step 515 Failed to pass all tests
-Step 516 Failed to compile
+Step 516 Failed to pass all tests
 Step 517 Failed to pass all tests
-Step 518 Failed to pass all tests
-Step 519 Failed to compile
+Step 518 Failed to compile
+Step 519 Patch invalid
+Failed to compile
 Step 520 Failed to pass all tests
 Step 521 Failed to pass all tests
-Step 522 Patch invalid
+Step 522 Failed to pass all tests
+Step 523 Failed to pass all tests
+Step 524 Patch invalid
 Failed to compile
-Step 523 Failed to compile
-Step 524 Failed to pass all tests
-Step 525 Failed to compile
+Step 525 Failed to pass all tests
 Step 526 Failed to pass all tests
-Step 527 Time: 1576100.0
+Step 527 Failed to compile
 Step 528 Failed to pass all tests
-Step 529 Failed to compile
+Step 529 Patch invalid
+Failed to compile
 Step 530 Failed to pass all tests
-Step 531 Failed to pass all tests
-Step 532 Failed to pass all tests
-Step 533 Failed to pass all tests
-Step 534 Failed to compile
+Step 531 Patch invalid
+Failed to compile
+Step 532 Failed to compile
+Step 533 Patch invalid
+Failed to compile
+Step 534 Failed to pass all tests
 Step 535 Failed to compile
-Step 536 Failed to compile
-Step 537 Failed to pass all tests
+Step 536 Failed to pass all tests
+Step 537 Failed to compile
 Step 538 Failed to pass all tests
-Step 539 Failed to compile
+Step 539 Failed to pass all tests
 Step 540 Failed to pass all tests
 Step 541 Failed to pass all tests
-Step 542 Patch invalid
+Step 542 Failed to pass all tests
+Step 543 Patch invalid
 Failed to compile
-Step 543 Failed to compile
 Step 544 Failed to pass all tests
-Step 545 Failed to compile
-Step 546 Failed to compile
-Step 547 Failed to compile
-Step 548 Failed to pass all tests
-Step 549 Patch invalid
-Failed to compile
+Step 545 Failed to pass all tests
+Step 546 Failed to pass all tests
+Step 547 Failed to pass all tests
+Step 548 Failed to compile
+Step 549 Failed to pass all tests
 Step 550 Failed to pass all tests
-Step 551 Failed to pass all tests
+Step 551 Failed to compile
 Step 552 Failed to pass all tests
-Step 553 Failed to compile
-Step 554 Failed to pass all tests
+Step 553 Failed to pass all tests
+Step 554 Failed to compile
 Step 555 Failed to pass all tests
-Step 556 Failed to pass all tests
-Step 557 Failed to compile
+Step 556 Failed to compile
+Step 557 Failed to pass all tests
 Step 558 Failed to pass all tests
-Step 559 Failed to compile
+Step 559 Failed to pass all tests
 Step 560 Failed to pass all tests
 Step 561 Failed to pass all tests
-Step 562 Failed to pass all tests
+Step 562 Failed to compile
 Step 563 Failed to pass all tests
-Step 564 Failed to pass all tests
+Step 564 Failed to compile
 Step 565 Failed to pass all tests
 Step 566 Failed to pass all tests
-Step 567 Patch invalid
-Failed to compile
+Step 567 Failed to pass all tests
 Step 568 Failed to pass all tests
 Step 569 Failed to pass all tests
 Step 570 Failed to compile
-Step 571 Failed to pass all tests
+Step 571 Failed to compile
 Step 572 Failed to pass all tests
 Step 573 Failed to compile
-Step 574 Failed to pass all tests
+Step 574 Failed to compile
 Step 575 Failed to pass all tests
-Step 576 Failed to compile
+Step 576 Failed to pass all tests
 Step 577 Failed to pass all tests
-Step 578 Failed to pass all tests
-Step 579 Patch invalid
-Failed to compile
-Step 580 *** New best *** Time: 1329600.0(ns)
-Step 581 Time: 1607200.0
-Step 582 Patch invalid
-Failed to compile
+Step 578 Failed to compile
+Step 579 Failed to pass all tests
+Step 580 Failed to pass all tests
+Step 581 Failed to compile
+Step 582 Time: 1857400.0
 Step 583 Failed to pass all tests
-Step 584 Failed to compile
+Step 584 Failed to pass all tests
 Step 585 Failed to pass all tests
-Step 586 Failed to compile
+Step 586 Patch invalid
+Failed to compile
 Step 587 Failed to pass all tests
 Step 588 Failed to pass all tests
-Step 589 Failed to pass all tests
-Step 590 Failed to compile
+Step 589 Failed to compile
+Step 590 Failed to pass all tests
 Step 591 Failed to pass all tests
 Step 592 Failed to compile
 Step 593 Failed to pass all tests
-Step 594 Failed to pass all tests
-Step 595 Time: 1855700.0
+Step 594 Failed to compile
+Step 595 Failed to pass all tests
 Step 596 Failed to pass all tests
-Step 597 Patch invalid
+Step 597 Failed to pass all tests
+Step 598 Failed to compile
+Step 599 Failed to pass all tests
+Step 600 Patch invalid
 Failed to compile
-Step 598 Failed to pass all tests
-Step 599 Failed to compile
-Step 600 Failed to pass all tests
-Step 601 Failed to compile
+Step 601 Patch invalid
+Failed to compile
 Step 602 Failed to pass all tests
-Step 603 Failed to compile
+Step 603 Failed to pass all tests
 Step 604 Failed to pass all tests
 Step 605 Failed to pass all tests
 Step 606 Failed to pass all tests
-Step 607 Failed to compile
-Step 608 Failed to pass all tests
+Step 607 Failed to pass all tests
+Step 608 Failed to compile
 Step 609 Failed to pass all tests
-Step 610 Time: 1480300.0
-Step 611 Time: 1439000.0
+Step 610 Failed to pass all tests
+Step 611 Failed to compile
 Step 612 Patch invalid
 Failed to compile
-Step 613 Time: 1392200.0
-Step 614 Patch invalid
-Failed to compile
-Step 615 Time: 2238800.0
-Step 616 Failed to pass all tests
-Step 617 Time: 1766800.0
-Step 618 Failed to compile
-Step 619 Failed to pass all tests
-Step 620 Failed to pass all tests
+Step 613 Failed to pass all tests
+Step 614 Failed to compile
+Step 615 Failed to pass all tests
+Step 616 Failed to compile
+Step 617 Failed to pass all tests
+Step 618 Failed to pass all tests
+Step 619 Failed to compile
+Step 620 Failed to compile
 Step 621 Failed to pass all tests
-Step 622 Failed to compile
+Step 622 Failed to pass all tests
 Step 623 Failed to pass all tests
-Step 624 Time: 1370900.0
-Step 625 Time: 1493200.0
-Step 626 Failed to compile
-Step 627 *** New best *** Time: 1247900.0(ns)
+Step 624 Failed to pass all tests
+Step 625 Failed to pass all tests
+Step 626 Failed to pass all tests
+Step 627 Failed to compile
 Step 628 Failed to pass all tests
-Step 629 Failed to compile
-Step 630 Failed to pass all tests
-Step 631 Failed to pass all tests
+Step 629 Failed to pass all tests
+Step 630 Failed to compile
+Step 631 Patch invalid
+Failed to compile
 Step 632 Failed to pass all tests
-Step 633 Failed to compile
+Step 633 Failed to pass all tests
 Step 634 Failed to pass all tests
-Step 635 Failed to compile
-Step 636 Patch invalid
-Failed to compile
-Step 637 Patch invalid
-Failed to compile
+Step 635 Failed to pass all tests
+Step 636 Failed to pass all tests
+Step 637 Failed to pass all tests
 Step 638 Failed to pass all tests
-Step 639 Failed to pass all tests
+Step 639 Failed to compile
 Step 640 Failed to pass all tests
 Step 641 Failed to pass all tests
-Step 642 Patch invalid
-Failed to compile
+Step 642 Failed to pass all tests
 Step 643 Failed to pass all tests
-Step 644 Failed to pass all tests
+Step 644 Failed to compile
 Step 645 Failed to compile
 Step 646 Failed to compile
-Step 647 Patch invalid
+Step 647 Failed to compile
+Step 648 Failed to pass all tests
+Step 649 Patch invalid
 Failed to compile
-Step 648 Failed to compile
-Step 649 Failed to pass all tests
-Step 650 Failed to compile
+Step 650 Failed to pass all tests
 Step 651 Failed to pass all tests
-Step 652 Failed to pass all tests
-Step 653 Failed to pass all tests
+Step 652 Failed to compile
+Step 653 Patch invalid
+Failed to compile
 Step 654 Failed to pass all tests
 Step 655 Failed to pass all tests
 Step 656 Failed to pass all tests
-Step 657 Failed to pass all tests
+Step 657 Failed to compile
 Step 658 Failed to pass all tests
 Step 659 Failed to pass all tests
-Step 660 Failed to compile
+Step 660 Failed to pass all tests
 Step 661 Failed to pass all tests
-Step 662 Failed to compile
-Step 663 Failed to compile
-Step 664 Failed to pass all tests
+Step 662 *** New best *** Time: 1310700.0(ns)
+Step 663 Time: 1444800.0
+Step 664 Failed to compile
 Step 665 Failed to pass all tests
 Step 666 Patch invalid
 Failed to compile
 Step 667 Failed to pass all tests
-Step 668 Failed to pass all tests
+Step 668 Time: 1696900.0
 Step 669 Failed to pass all tests
 Step 670 Failed to compile
 Step 671 Failed to compile
 Step 672 Failed to pass all tests
-Step 673 Patch invalid
+Step 673 Failed to pass all tests
+Step 674 Patch invalid
 Failed to compile
-Step 674 Time: 1373300.0
-Step 675 Failed to pass all tests
+Step 675 Failed to compile
 Step 676 Failed to pass all tests
 Step 677 Failed to pass all tests
-Step 678 Failed to compile
-Step 679 Failed to pass all tests
-Step 680 Failed to pass all tests
-Step 681 Patch invalid
+Step 678 Failed to pass all tests
+Step 679 Patch invalid
 Failed to compile
-Step 682 Time: 1407300.0
+Step 680 Failed to compile
+Step 681 Time: 1782200.0
+Step 682 Failed to compile
 Step 683 Patch invalid
 Failed to compile
-Step 684 Failed to pass all tests
-Step 685 Failed to pass all tests
-Step 686 Failed to pass all tests
+Step 684 Failed to compile
+Step 685 Failed to compile
+Step 686 Failed to compile
 Step 687 Failed to pass all tests
 Step 688 Failed to pass all tests
-Step 689 Failed to compile
-Step 690 Failed to compile
+Step 689 Failed to pass all tests
+Step 690 Failed to pass all tests
 Step 691 Failed to pass all tests
-Step 692 Failed to pass all tests
+Step 692 Failed to compile
 Step 693 Failed to compile
-Step 694 Failed to pass all tests
-Step 695 Patch invalid
-Failed to compile
-Step 696 Failed to pass all tests
-Step 697 Failed to pass all tests
-Step 698 Patch invalid
-Failed to compile
-Step 699 Failed to pass all tests
+Step 694 Time: 1864900.0
+Step 695 Failed to compile
+Step 696 Failed to compile
+Step 697 Failed to compile
+Step 698 Time: 1504800.0
+Step 699 Time: 2562200.0
 Step 700 Failed to pass all tests
 Step 701 Failed to pass all tests
 Step 702 Failed to pass all tests
-Step 703 Failed to pass all tests
-Step 704 Patch invalid
-Failed to compile
-Step 705 *** New best *** Time: 1200700.0(ns)
+Step 703 Failed to compile
+Step 704 Time: 1461100.0
+Step 705 Failed to pass all tests
 Step 706 Patch invalid
 Failed to compile
-Step 707 Failed to pass all tests
-Step 708 Time: 1686500.0
-Step 709 Failed to pass all tests
-Step 710 Failed to pass all tests
+Step 707 Time: 1637500.0
+Step 708 Patch invalid
+Failed to compile
+Step 709 Failed to compile
+Step 710 Failed to compile
 Step 711 Failed to pass all tests
 Step 712 Failed to pass all tests
 Step 713 Failed to pass all tests
-Step 714 *** New best *** Time: 1160800.0(ns)
+Step 714 *** New best *** Time: 1247500.0(ns)
 Step 715 Failed to pass all tests
-Step 716 Failed to pass all tests
-Step 717 Failed to pass all tests
-Step 718 Failed to compile
+Step 716 Failed to compile
+Step 717 Patch invalid
+Failed to compile
+Step 718 Time: 1291300.0
 Step 719 Failed to pass all tests
-Step 720 Failed to pass all tests
-Step 721 Failed to compile
-Step 722 Failed to pass all tests
+Step 720 Failed to compile
+Step 721 Patch invalid
+Failed to compile
+Step 722 Patch invalid
+Failed to compile
 Step 723 Failed to pass all tests
-Step 724 Failed to pass all tests
+Step 724 Failed to compile
 Step 725 Failed to pass all tests
 Step 726 Failed to compile
 Step 727 Failed to pass all tests
 Step 728 Failed to pass all tests
 Step 729 Failed to pass all tests
-Step 730 Failed to pass all tests
-Step 731 Patch invalid
-Failed to compile
+Step 730 Failed to compile
+Step 731 Failed to pass all tests
 Step 732 Failed to pass all tests
-Step 733 Failed to pass all tests
-Step 734 Failed to pass all tests
-Step 735 Failed to pass all tests
-Step 736 Failed to compile
+Step 733 Failed to compile
+Step 734 Failed to compile
+Step 735 Failed to compile
+Step 736 Failed to pass all tests
 Step 737 Failed to pass all tests
-Step 738 Failed to pass all tests
+Step 738 Time: 1261900.0
 Step 739 Failed to pass all tests
-Step 740 Time: 1315300.0
+Step 740 Failed to compile
 Step 741 Failed to pass all tests
-Step 742 Patch invalid
-Failed to compile
-Step 743 Failed to pass all tests
-Step 744 Failed to pass all tests
-Step 745 Failed to pass all tests
-Step 746 Failed to compile
-Step 747 Time: 1330900.0
-Step 748 Failed to pass all tests
+Step 742 Failed to pass all tests
+Step 743 Failed to compile
+Step 744 Failed to compile
+Step 745 Failed to compile
+Step 746 Failed to pass all tests
+Step 747 Failed to compile
+Step 748 Failed to compile
 Step 749 Failed to pass all tests
-Step 750 Failed to compile
+Step 750 Failed to pass all tests
 Step 751 Failed to pass all tests
-Step 752 Failed to compile
+Step 752 Failed to pass all tests
 Step 753 Failed to compile
-Step 754 Failed to compile
-Step 755 Failed to pass all tests
-Step 756 Failed to compile
+Step 754 Failed to pass all tests
+Step 755 Failed to compile
+Step 756 Failed to pass all tests
 Step 757 Failed to pass all tests
-Step 758 Failed to pass all tests
-Step 759 Failed to pass all tests
+Step 758 Failed to compile
+Step 759 Failed to compile
 Step 760 Failed to pass all tests
-Step 761 Failed to compile
+Step 761 Failed to pass all tests
 Step 762 Failed to pass all tests
 Step 763 Failed to compile
-Step 764 Failed to compile
+Step 764 Failed to pass all tests
 Step 765 Failed to pass all tests
-Step 766 Failed to compile
-Step 767 Failed to compile
-Step 768 Failed to pass all tests
-Step 769 Failed to compile
-Step 770 Failed to pass all tests
-Step 771 Patch invalid
-Failed to compile
-Step 772 Failed to pass all tests
+Step 766 Failed to pass all tests
+Step 767 Failed to pass all tests
+Step 768 Failed to compile
+Step 769 Failed to pass all tests
+Step 770 Failed to compile
+Step 771 Failed to pass all tests
+Step 772 Time: 1696300.0
 Step 773 Failed to pass all tests
-Step 774 Failed to compile
-Step 775 Failed to pass all tests
-Step 776 Failed to compile
-Step 777 Failed to compile
-Step 778 Failed to pass all tests
-Step 779 Failed to pass all tests
+Step 774 Failed to pass all tests
+Step 775 Patch invalid
+Failed to compile
+Step 776 Failed to pass all tests
+Step 777 Failed to pass all tests
+Step 778 Patch invalid
+Failed to compile
+Step 779 Failed to compile
 Step 780 Failed to pass all tests
 Step 781 Failed to pass all tests
 Step 782 Failed to pass all tests
-Step 783 Failed to pass all tests
+Step 783 Failed to compile
 Step 784 Failed to pass all tests
 Step 785 Failed to compile
-Step 786 Failed to pass all tests
+Step 786 Failed to compile
 Step 787 Failed to pass all tests
-Step 788 Patch invalid
-Failed to compile
-Step 789 Failed to compile
-Step 790 Patch invalid
-Failed to compile
-Step 791 Patch invalid
-Failed to compile
+Step 788 Failed to pass all tests
+Step 789 Failed to pass all tests
+Step 790 Failed to pass all tests
+Step 791 Time: 1415900.0
 Step 792 Failed to pass all tests
-Step 793 Failed to pass all tests
-Step 794 Failed to compile
+Step 793 Patch invalid
+Failed to compile
+Step 794 Failed to pass all tests
 Step 795 Failed to pass all tests
 Step 796 Failed to pass all tests
-Step 797 Time: 1560000.0
-Step 798 Failed to compile
+Step 797 Failed to compile
+Step 798 Patch invalid
+Failed to compile
 Step 799 Failed to pass all tests
 Step 800 Failed to pass all tests
 Step 801 Failed to pass all tests
 Step 802 Failed to pass all tests
-Step 803 Failed to pass all tests
-Step 804 Failed to compile
-Step 805 Failed to compile
+Step 803 Failed to compile
+Step 804 Patch invalid
+Failed to compile
+Step 805 Failed to pass all tests
 Step 806 Failed to pass all tests
 Step 807 Failed to pass all tests
-Step 808 Failed to compile
-Step 809 Time: 1171900.0
-Step 810 Failed to pass all tests
+Step 808 Failed to pass all tests
+Step 809 Failed to pass all tests
+Step 810 *** New best *** Time: 1214900.0(ns)
 Step 811 Failed to pass all tests
-Step 812 Failed to compile
+Step 812 Failed to pass all tests
 Step 813 Failed to pass all tests
-Step 814 Time: 1319400.0
-Step 815 Failed to pass all tests
-Step 816 Failed to compile
+Step 814 Time: 1619600.0
+Step 815 Failed to compile
+Step 816 Time: 1383800.0
 Step 817 Failed to pass all tests
-Step 818 Patch invalid
-Failed to compile
-Step 819 Failed to pass all tests
-Step 820 Failed to pass all tests
-Step 821 Failed to compile
-Step 822 Failed to compile
-Step 823 Patch invalid
-Failed to compile
-Step 824 Failed to pass all tests
-Step 825 Failed to compile
+Step 818 Time: 1421700.0
+Step 819 Time: 1293900.0
+Step 820 Time: 1668600.0
+Step 821 Time: 1450600.0
+Step 822 Time: 1453100.0
+Step 823 Failed to pass all tests
+Step 824 Failed to compile
+Step 825 Failed to pass all tests
 Step 826 Failed to pass all tests
 Step 827 Failed to pass all tests
-Step 828 Failed to compile
-Step 829 Failed to pass all tests
+Step 828 Failed to pass all tests
+Step 829 Time: 1804000.0
 Step 830 Failed to pass all tests
-Step 831 Failed to compile
-Step 832 Failed to pass all tests
-Step 833 Time: 1373700.0
-Step 834 Failed to pass all tests
+Step 831 Failed to pass all tests
+Step 832 Failed to compile
+Step 833 Time: 1298300.0
+Step 834 Time: 1442300.0
 Step 835 Failed to pass all tests
 Step 836 Failed to pass all tests
-Step 837 Failed to pass all tests
-Step 838 Patch invalid
-Failed to compile
-Step 839 Failed to pass all tests
+Step 837 Failed to compile
+Step 838 Failed to pass all tests
+Step 839 Failed to compile
 Step 840 Failed to pass all tests
-Step 841 Patch invalid
+Step 841 Failed to pass all tests
+Step 842 Time: 1461000.0
+Step 843 Failed to pass all tests
+Step 844 Failed to compile
+Step 845 Time: 1267300.0
+Step 846 Time: 1798700.0
+Step 847 Patch invalid
 Failed to compile
-Step 842 Failed to compile
-Step 843 Failed to compile
-Step 844 Failed to pass all tests
-Step 845 Failed to pass all tests
-Step 846 Failed to pass all tests
-Step 847 Failed to pass all tests
-Step 848 Failed to compile
-Step 849 Failed to pass all tests
+Step 848 Time: 1330400.0
+Step 849 Time: 1573100.0
 Step 850 Failed to compile
-Step 851 Failed to compile
-Step 852 Failed to pass all tests
-Step 853 Failed to compile
-Step 854 Failed to pass all tests
-Step 855 Failed to compile
-Step 856 Failed to pass all tests
-Step 857 Failed to pass all tests
-Step 858 Failed to compile
-Step 859 Patch invalid
+Step 851 Failed to pass all tests
+Step 852 Patch invalid
 Failed to compile
+Step 853 Failed to pass all tests
+Step 854 Time: 1575300.0
+Step 855 Time: 1327300.0
+Step 856 Time: 1459500.0
+Step 857 Failed to compile
+Step 858 Patch invalid
+Failed to compile
+Step 859 Failed to compile
 Step 860 Failed to pass all tests
-Step 861 Failed to compile
+Step 861 Patch invalid
+Failed to compile
 Step 862 Failed to pass all tests
-Step 863 Failed to compile
+Step 863 Failed to pass all tests
 Step 864 Failed to pass all tests
-Step 865 Failed to compile
+Step 865 Patch invalid
+Failed to compile
 Step 866 Failed to pass all tests
-Step 867 Failed to pass all tests
-Step 868 Failed to compile
-Step 869 Failed to pass all tests
-Step 870 Failed to pass all tests
+Step 867 Time: 1469100.0
+Step 868 Failed to pass all tests
+Step 869 Time: 1540100.0
+Step 870 Patch invalid
+Failed to compile
 Step 871 Patch invalid
 Failed to compile
-Step 872 Failed to compile
-Step 873 Failed to pass all tests
+Step 872 Time: 2121200.0
+Step 873 Failed to compile
 Step 874 Failed to pass all tests
 Step 875 Failed to pass all tests
-Step 876 Failed to pass all tests
+Step 876 Time: 1647300.0
 Step 877 Failed to compile
-Step 878 Time: 1775900.0
-Step 879 Time: 2028900.0
+Step 878 Failed to pass all tests
+Step 879 Failed to compile
 Step 880 Failed to pass all tests
 Step 881 Failed to pass all tests
-Step 882 Failed to pass all tests
+Step 882 Failed to compile
 Step 883 Failed to pass all tests
-Step 884 Patch invalid
+Step 884 Failed to pass all tests
+Step 885 Patch invalid
 Failed to compile
-Step 885 Failed to compile
 Step 886 Failed to pass all tests
-Step 887 Failed to pass all tests
-Step 888 Failed to pass all tests
-Step 889 Failed to pass all tests
-Step 890 Failed to pass all tests
-Step 891 Failed to pass all tests
-Step 892 Failed to pass all tests
+Step 887 Time: 1982000.0
+Step 888 Time: 1265200.0
+Step 889 Failed to compile
+Step 890 Time: 1534300.0
+Step 891 Failed to compile
+Step 892 Time: 1481100.0
 Step 893 Failed to pass all tests
 Step 894 Failed to compile
 Step 895 Failed to pass all tests
-Step 896 Failed to compile
-Step 897 Failed to pass all tests
+Step 896 Time: 1517900.0
+Step 897 Patch invalid
+Failed to compile
 Step 898 Failed to pass all tests
-Step 899 Failed to compile
-Step 900 Failed to pass all tests
+Step 899 Time: 1458600.0
+Step 900 Patch invalid
+Failed to compile
 Step 901 Failed to pass all tests
 Step 902 Failed to pass all tests
-Step 903 Failed to compile
+Step 903 Failed to pass all tests
 Step 904 Failed to pass all tests
-Step 905 Failed to pass all tests
-Step 906 Failed to pass all tests
-Step 907 Failed to pass all tests
-Step 908 Failed to compile
-Step 909 Failed to pass all tests
-Step 910 Failed to compile
+Step 905 Patch invalid
+Failed to compile
+Step 906 Time: 1706500.0
+Step 907 Failed to compile
+Step 908 Patch invalid
+Failed to compile
+Step 909 Patch invalid
+Failed to compile
+Step 910 Time: 1763100.0
 Step 911 Failed to pass all tests
 Step 912 Failed to compile
-Step 913 Failed to pass all tests
-Step 914 Patch invalid
-Failed to compile
-Step 915 Failed to pass all tests
-Step 916 Failed to compile
-Step 917 Failed to pass all tests
-Step 918 Failed to compile
-Step 919 Failed to pass all tests
+Step 913 Failed to compile
+Step 914 Time: 1798100.0
+Step 915 Failed to compile
+Step 916 Failed to pass all tests
+Step 917 Failed to compile
+Step 918 Failed to pass all tests
+Step 919 Time: 2.20692E7
 Step 920 Failed to pass all tests
-Step 921 Failed to pass all tests
-Step 922 Failed to pass all tests
-Step 923 Failed to pass all tests
-Step 924 Failed to compile
+Step 921 Failed to compile
+Step 922 Time: 1904800.0
+Step 923 Failed to compile
+Step 924 Failed to pass all tests
 Step 925 Failed to pass all tests
-Step 926 Failed to pass all tests
-Step 927 Failed to compile
-Step 928 Failed to compile
-Step 929 Failed to pass all tests
-Step 930 Failed to compile
-Step 931 Failed to pass all tests
-Step 932 Failed to compile
-Step 933 Failed to pass all tests
-Step 934 Failed to pass all tests
-Step 935 Failed to pass all tests
-Step 936 Failed to pass all tests
-Step 937 Patch invalid
+Step 926 Time: 1257900.0
+Step 927 Failed to pass all tests
+Step 928 Failed to pass all tests
+Step 929 Patch invalid
 Failed to compile
-Step 938 Failed to pass all tests
-Step 939 Time: 2505200.0
-Step 940 Failed to compile
-Step 941 Failed to compile
-Step 942 Time: 2696900.0
-Step 943 Failed to compile
-Step 944 Failed to pass all tests
-Step 945 Failed to pass all tests
-Step 946 Time: 1896600.0
+Step 930 Failed to pass all tests
+Step 931 Time: 1502400.0
+Step 932 Time: 1348500.0
+Step 933 Time: 1319900.0
+Step 934 Patch invalid
+Failed to compile
+Step 935 Time: 1285100.0
+Step 936 Failed to pass all tests
+Step 937 Failed to compile
+Step 938 Time: 1288200.0
+Step 939 Failed to compile
+Step 940 Failed to pass all tests
+Step 941 Patch invalid
+Failed to compile
+Step 942 Failed to compile
+Step 943 Time: 1420100.0
+Step 944 Patch invalid
+Failed to compile
+Step 945 Time: 1319900.0
+Step 946 Failed to pass all tests
 Step 947 Failed to pass all tests
-Step 948 Failed to pass all tests
+Step 948 Failed to compile
 Step 949 Failed to pass all tests
-Step 950 Failed to pass all tests
+Step 950 Time: 1415000.0
 Step 951 Failed to pass all tests
-Step 952 Failed to pass all tests
-Step 953 Failed to pass all tests
+Step 952 Patch invalid
+Failed to compile
+Step 953 Patch invalid
+Failed to compile
 Step 954 Failed to compile
 Step 955 Failed to pass all tests
 Step 956 Failed to pass all tests
-Step 957 Failed to pass all tests
-Step 958 Failed to pass all tests
-Step 959 Failed to compile
-Step 960 Time: 1840400.0
-Step 961 Failed to pass all tests
-Step 962 Patch invalid
+Step 957 Failed to compile
+Step 958 Failed to compile
+Step 959 Patch invalid
 Failed to compile
-Step 963 Failed to compile
-Step 964 Patch invalid
-Failed to compile
-Step 965 Failed to compile
-Step 966 Patch invalid
-Failed to compile
-Step 967 Time: 1169900.0
+Step 960 Failed to compile
+Step 961 Failed to compile
+Step 962 Failed to compile
+Step 963 Time: 1581200.0
+Step 964 Failed to pass all tests
+Step 965 Failed to pass all tests
+Step 966 Failed to compile
+Step 967 Failed to pass all tests
 Step 968 Failed to compile
-Step 969 Failed to pass all tests
+Step 969 Failed to compile
 Step 970 Failed to pass all tests
-Step 971 Failed to pass all tests
-Step 972 Failed to pass all tests
-Step 973 Failed to compile
-Step 974 Failed to pass all tests
+Step 971 Time: 1756300.0
+Step 972 Failed to compile
+Step 973 Failed to pass all tests
+Step 974 Time: 1681000.0
 Step 975 Failed to pass all tests
 Step 976 Failed to pass all tests
-Step 977 Failed to pass all tests
+Step 977 Patch invalid
+Failed to compile
 Step 978 Failed to pass all tests
 Step 979 Failed to pass all tests
 Step 980 Failed to pass all tests
 Step 981 Failed to pass all tests
-Step 982 Patch invalid
-Failed to compile
-Step 983 Failed to pass all tests
-Step 984 Failed to pass all tests
-Step 985 Time: 1210500.0
-Step 986 Failed to pass all tests
+Step 982 Time: 1360000.0
+Step 983 Time: 1698800.0
+Step 984 Failed to compile
+Step 985 Failed to compile
+Step 986 Failed to compile
 Step 987 Failed to pass all tests
 Step 988 Failed to pass all tests
-Step 989 Failed to compile
-Step 990 Failed to pass all tests
-Step 991 Patch invalid
+Step 989 Patch invalid
 Failed to compile
-Step 992 Patch invalid
-Failed to compile
-Step 993 Failed to compile
-Step 994 Failed to pass all tests
-Step 995 Failed to pass all tests
-Step 996 Failed to pass all tests
-Step 997 Failed to pass all tests
+Step 990 *** New best *** Time: 1211400.0(ns)
+Step 991 Failed to pass all tests
+Step 992 Failed to compile
+Step 993 Time: 1340900.0
+Step 994 Time: 1413700.0
+Step 995 Failed to compile
+Step 996 Failed to compile
+Step 997 Time: 1251800.0
 Step 998 Failed to compile
-Step 999 Failed to pass all tests
+Step 999 Time: 1571100.0
 Step 1000 Failed to pass all tests
 
-Best patch found: | DEL 8 |
-Found at step: 714
-Best execution time: 1160800.0 (ns) 
-Speedup (%): 0.88392
+Best patch found: | MOVE 8 -> 2:0 | MOVE 1 -> 0:0 | COPY 9 -> 2:1 |
+Found at step: 990
+Best execution time: 1211400.0 (ns) 
+Speedup (%): 0.87886
 print is equal workingtrue
-after final search 12
-after final search patch | DEL 8 |
+Equivilent patch 57
+Equivilent patch index | MOVE 8 -> 2:0 | COPY 8 -> 2:1 | MOVE 1 -> 0:0 |
