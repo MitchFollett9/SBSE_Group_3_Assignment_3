@@ -39,8 +39,8 @@ public class LocalSearch {
             System.out.println("initial search");
             SearchReturn sr = localSearch.search();
             
-            System.out.println("after final search " + sr.betterPatch.index);
-            System.out.println("after final search patch " + sr.betterPatch.patch.toString());
+            System.out.println("Equivilent patch " + sr.betterPatch.index);
+            System.out.println("Equivilent patch index " + sr.betterPatch.patch.toString());
 
         }
 
@@ -73,7 +73,6 @@ public class LocalSearch {
 
         ArrayList<PatchWIthIndex> passingPatches = new ArrayList<>();
         PatchWIthIndex betterPatch;
-        int sameStep = 0;
         
         System.out.println("Initial execution time: " + bestTime + " (ns) \n");
 
@@ -135,22 +134,7 @@ public class LocalSearch {
                 break;
             }
         }
-
-        /*
-         * 
-         * Heres my thoughts on how to do this
-         * 1. save an array of all of the changes that produced a best time
-         * 2. save an array of all of the changes that didnt change anything, maybe only one of each type of change
-         * 3. at the end delete all from the didnt improve list that appear in the best list
-         * 4. there is your list of things that never improved it
-         * 5. kind of looks like they want you to run search on the final one after this, so i guess run it twice?
-         * 
-         * 
-         */
-        // for (int i = 0; i < bestPatch.edits.size(); i++) {
-        //     System.out.println(bestPatch.edits.get(i).toString());
-        // }
-        
+       
 
         return new SearchReturn(betterPatch, bestPatch);
 
