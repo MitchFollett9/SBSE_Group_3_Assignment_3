@@ -67,7 +67,7 @@ public class LocalSearch {
 
         // start with the empty patch
         Patch bestPatch = new Patch(sourceFile);
-        double bestTime = 10000000; // testRunner.test(bestPatch, WARMUP_REPS).executionTime;
+        double bestTime = testRunner.test(bestPatch, WARMUP_REPS).executionTime;
         double origTime = bestTime;
         int bestStep = 0;
 
@@ -82,27 +82,21 @@ public class LocalSearch {
 
             Patch neighbour = neighbour(bestPatch, rng);
 
-            // System.out.print(neighbour);
-
             TestRunner.TestResult testResult = testRunner.test(neighbour);
 
             if (!testResult.patchSuccess) {
                 System.out.println("Patch invalid");
-                // failedChanges.add(neighbour.toString());
             }
 
             if (!testResult.compiled) {
                 System.out.println("Failed to compile");
-                // failedChanges.add(neighbour.toString());
                 continue;
             }
 
             if (!testResult.junitResult.wasSuccessful()) {
                 System.out.println("Failed to pass all tests");
-                // failedChanges.add(neighbour.toString());
                 continue;
             }
-
             passingPatches.add(new PatchWIthIndex(step, neighbour));
 
             if (testResult.executionTime < bestTime) {
@@ -110,7 +104,6 @@ public class LocalSearch {
                 bestTime = testResult.executionTime;
                 bestStep = step;
                 System.out.println("*** New best *** Time: " + bestTime + "(ns)");
-                // failedChanges.clear();
             } else {
                 System.out.println("Time: " + testResult.executionTime);
             }
@@ -123,18 +116,14 @@ public class LocalSearch {
         bestPatch.writePatchedSourceToFile(sourceFile.getFilename() + ".optimised");
 
         SourceFile checkFile = bestPatch.apply();
-
         betterPatch = new PatchWIthIndex(0, bestPatch);
-
-        System.out.println("print is equal working" + bestPatch.apply().isEqual(bestPatch.apply()));
 
         for (PatchWIthIndex str : passingPatches) {
             if (str.patch.apply().isEqual(checkFile)) {
                 betterPatch = str;
                 break;
             }
-        }
-       
+        }       
 
         return new SearchReturn(betterPatch, bestPatch);
 

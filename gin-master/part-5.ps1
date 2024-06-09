@@ -7,7 +7,7 @@ for ($i = 1; $i -le $numberOfRuns; $i++) {
     $javaPath = "C:\Program Files\Java\jdk-17\bin\java"
     $jarFile = "build/gin.jar"
 
-    $javaArgs = "examples/locoGP/SortHeap.java"
+    $javaArgs = "examples/locoGP/ToThePower.java"
 
     $outputFilePath = "output$i.txt"
     Start-Process -FilePath $javaPath -ArgumentList "-jar", $jarFile, $javaArgs -Wait -RedirectStandardOutput $outputFilePath
